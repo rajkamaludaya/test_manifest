@@ -17,11 +17,15 @@ fetch="."
 />
 
 <remote fetch="https://github.com/rajkamaludaya" name="test_app"/>
+<remote fetch="https://github.com/rajkamaludaya" name="test_lib"/>
+<remote fetch="https://github.com/rajkamaludaya" name="test_hal"/>
 
 <default revision="master"
 remote="test_app"
 />
 
-<project name="test_app" path="projects/test_app" />
+<project name="test_app" path="workspace/test_app" />
+<project name="test_app" path="workspace/testest_lib" />
+<project name="test_app" path="workspace/abstraction/test_hal" />
 
 </manifest>
