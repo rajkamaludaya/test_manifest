@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-     Copyright 2018, Data61, CSIRO
 
-     SPDX-License-Identifier: BSD-2-Clause
--->
 <manifest>
 
-<!-- We assume this manifest is in the same path as all the libraries. If you are
-     copying this manifest as a template then you probably want the fetch path
-     for this to be '../seL4' instead of '.'
-     note: this manifest is not intended to be used directly, but should be included
-     into a manifest that also declares a kernel -->
 
 <remote name="test_manifest"
 fetch="."
@@ -24,8 +15,8 @@ fetch="."
 remote="test_app"
 />
 
-<project name="test_app" path="workspace/test_app" />
-<project name="test_lib" path="workspace/test_lib" />
+<project name="test_app" path="workspace/test_app" revision="bf302dca141d8883e67461cbb59d0938a5c428b0" upstream="master" dest-branch="master"/>
+<project name="test_lib" path="workspace/testest_lib" />
 <project name="test_hal" path="workspace/abstraction/test_hal" />
 
 </manifest>
