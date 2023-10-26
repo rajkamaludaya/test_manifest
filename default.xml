@@ -25,7 +25,7 @@ remote="test_app"
 />
 
 <project name="test_app" path="workspace/test_app" />
-<project name="test_app" path="workspace/testest_lib" />
-<project name="test_app" path="workspace/abstraction/test_hal" />
+<project name="test_lib" path="workspace/test_lib" />
+<project name="test_hal" path="workspace/abstraction/test_hal" />
 
 </manifest>
