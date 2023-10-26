@@ -15,8 +15,8 @@ fetch="."
 remote="test_app"
 />
 
-<project name="test_app" path="workspace/test_app" revision="bf302dca141d8883e67461cbb59d0938a5c428b0" upstream="master" dest-branch="master"/>
-<project name="test_lib" path="workspace/testest_lib" />
-<project name="test_hal" path="workspace/abstraction/test_hal" />
+<project name="test_app" path="workspace/test_app" revision="9005b4537a9e110c60c65dd2299efbc8f52df7ea" upstream="master" dest-branch="master"/>
+<project name="test_lib" path="workspace/test_lib" revision="37fe6882c043e787d4c0aa13c5718a75bdb3c025" upstream="master" dest-branch="master"/>
+<project name="test_hal" path="workspace/abstraction/test_hal" revision="db1d64b195cb5993fba1f6146a0737a2703c6ff0" upstream="master" dest-branch="master"/>
 
 </manifest>
