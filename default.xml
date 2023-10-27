@@ -2,10 +2,6 @@
 
 <manifest>
 
-<remote name="test_manifest"
-fetch="."
-/>
-
 <remote fetch="https://github.com/rajkamaludaya" name="test_app"/>
 <remote fetch="https://github.com/rajkamaludaya" name="test_lib"/>
 <remote fetch="https://github.com/rajkamaludaya" name="test_hal"/>
